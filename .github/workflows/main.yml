@@ -24,7 +24,7 @@ jobs:
          echo "Swk QQ  ：2940714815"
          echo "🎉Github定时运行serv00保活网页🎉"
          echo "请先确认已成功安装SwkのServ00本地SSH三协议一键脚本"
-         echo "脚本地址：https://github.com/SWK-1337/sver00-deploy"
+         echo "脚本地址：https://github.com/SWK-1337/sver00-deploy-swk"
          echo "*****************************************************"
         for url in "${http[@]}"; do
           response=$(curl -sk "$url" || true)
